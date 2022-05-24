@@ -1,0 +1,1109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*start of custom css*/
+
+#gretchen_gif{
+	width: 75%;
+	/* float: right; */
+	/* margin-top: 100px;
+	margin-right: 45px; */
+	/* display:block; */
+}
+body#black{
+	background-color:black;
+	color:white;
+}
+
+
+p, h1, h2, h3, h4{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+h1{
+	font-size: 40px;
+	line-height: 110%;
+	margin-left:3em;
+}
+h2{
+	font-size: 60px;
+
+}
+p{
+	font-size:30px;
+	margin-left: 4em;
+}
+h3{
+	font-size:35px;
+	margin-left: 4em;
+
+}
+h4{
+	font-size:20px;
+	color:black;
+	margin-left: 45%;
+}
+h4 a{
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 45%;
+}
+.figcaption{
+	text-align:center;
+}
+div.proj-descrip {
+	position:relative;
+	top:65px;
+	margin-left: 10em;
+}
+div#current-problem{
+	display:flex;
+	margin-top:-17em;
+	margin-left:600px;
+}
+div#research-question{
+	display:flex;
+	margin-top: 15em;
+
+}
+div#intervention p{
+	font-size:50px;
+	text-align:center;
+}
+#nutribb-1{
+	display:flex;
+	padding-top: 100px;
+}
+#nutribb-2{
+	display:flex;
+	margin-left:200px;
+}
+#carnegie-kitchen{
+	float:right;
+	width:60%;
+}
+#live-dining{
+	float:left;
+	width:60%;
+	padding-top:10em;
+}
+#live-dining-caption{
+	float:right;
+	margin-right:6em;
+	margin-top: -20%;
+
+}
+#recipe-sharing{
+	margin-left:10em;
+	margin-top:10em;
+	margin-bottom:15em;
+}
+#wellness{
+	float:right;
+	margin-top:-15em;
+	margin-bottom: 15em;
+}
+div.visuals-graphics{
+	margin-top:50em;
+	margin-bottom: 5em;
+}
+div.project-links a{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration:none;
+	font-size:40px;
+	color:black;	
+	margin-left:10em;;
+	
+}
+
+div.project-links a:hover{
+	color:yellowgreen;
+}
+span.thin{
+	font-weight: 100;
+}
+#black h4 a{
+	position:absolute;
+	left:400px;
+	top:800px;
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+}
+h4 a:hover{
+	color:yellowgreen;
+}
+#black h4 a:hover{
+	color:yellowgreen;
+}
+.hover_img a{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color:black;
+	text-decoration: none;
+	line-height: 150%;
+	font-size:30px;
+	margin-left: 4em;
+}
+
+div.item {
+	vertical-align: top;
+	/* display: inline-block; */
+	text-align: right; 
+	float: right;
+	margin-top: 3.5em;
+	margin-right: 45px;
+	margin-bottom: 2em;
+
+}
+.hover_img a { 
+	position:relative; 
+}
+
+.hover_img a span { 
+	position:absolute; 
+	display:none; 
+	z-index:99; 
+}
+.hover_img a:hover{
+	color:yellowgreen;
+}
+.hover_img a:hover span { 
+	display:block; 
+	margin-left:500px;
+	margin-top:-400px;
+	
+}
+.hover_img_main a { 
+	position:relative; 
+}
+
+.hover_img_main a span { 
+	position:absolute; 
+	display:none; 
+	z-index:99; 
+}
+.hover_img_main a:hover{
+	color:yellowgreen;
+}
+.hover_img_main a:hover span { 
+	display:block; 
+	margin-left:500px;
+	margin-top:-400px;
+	
+}
+.food-deisgn-projects a { 
+	position:relative; 
+}
+
+.food-design-projects a span { 
+	position:absolute; 
+	display:none; 
+	z-index:99; 
+}
+
+.food-design-projects a:hover span { 
+	display:block; 
+	margin-left:500px;
+	margin-top:-400px;
+	
+}
+div.poster-img img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+div.barragan-video iframe{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5em;
+	margin-bottom:3em;
+}
+/* div.barragan-video a{
+	margin-left: 17em;
+	margin-top: 2em;
+	padding-bottom: 3em;
+	text-decoration:none;
+	color:black;
+}
+div.barragan-video a:hover{
+	color:yellowgreen;
+} */
+#blurb{
+	float:right;
+	margin-right: 30px;
+	width:60%;
+}
+#look-at-luis {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#nutri-lit-title{
+	margin-left:5em;
+}
+
+#explain{
+	width:1080px;
+	margin-left:3em;
+}
+
+#selected-work{
+	margin-right: auto;
+	margin-left: auto;
+	width: 8em;
+	clear:both;
+	font-size: 20px;
+}
+
+
+span {
+	content: "\2193";
+  }
+#food-design{
+	width: 50%;
+	padding-top: 3em;
+	padding-left:2em;
+}
+
+#barragan{
+	width: 45%;
+	float:right;
+	padding-top: -10%;
+	padding-right: 2em;
+}
+
+#photography{
+	width:45%;
+	padding-top: 20%;
+	padding-left: 2em;
+}
+
+#delta-gamma{
+	float: right;
+	width: 45%;
+	padding-top: 3em;
+	padding-right: 2em;
+}
+
+#nutritional-lit{
+	width: 45%;
+	padding-top:17%;
+	padding-left:2em;
+}
+
+#parthean{
+	float:right;
+	width: 45%;
+	padding-top: 3em;
+	padding-right: 2em;
+}
+
+#motion{
+	width: 50%;
+	padding-top: 13%;
+	padding-left: 2em;
+}
+
+#art{
+	float: right;
+	width: 45%;
+	padding-right: 2em;
+}
+/* header{
+	margin-top: 20px;
+}
+header img#home{
+	margin-top:25px;
+	margin-left:40px;
+} */
+
+/* nav a{
+	text-align:right;
+} */
+
+.main {
+	float:right;
+} 
+
+  
+nav ul li{
+	/*\ margin-right: 45px;
+	margin-top: 20px; */
+	display: inline-block;
+	margin-left:50px;
+}
+
+  nav ul li ul li a{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size:40px;
+	color:black;
+	padding: 10px 50px 0px 10px;
+	text-align: right;
+	text-decoration: none;
+	
+  }
+  
+  
+  body#black nav ul li ul li a{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size:40px;
+	color:white;
+	padding: 10px 50px 0px 10px;
+	text-align: right;
+	text-decoration: none;
+	
+  }
+  nav ul li ul li a:hover{
+	color:yellowgreen;
+  }
+
+body#black nav ul li ul li a:hover{
+		color:yellowgreen;
+ }
+ div.food-design-projects{
+	 float:left;
+	 margin-left: 9em;
+	 margin-top:-7em;
+ }
+ div.food-design-projects a{
+	color:white;
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size:40px;
+	line-height:120%;
+	text-decoration: none;	
+ }
+ div.food-design-projects a:hover{
+	color:yellowgreen;
+ }
+ div.barragan-projects{
+	float:left;
+	margin-left: 9em;
+	margin-top:1em;
+}
+div.barragan-projects a{
+   color:black;
+   font-family: neue-haas-grotesk-display, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size:40px;
+   line-height:120%;
+   text-decoration: none;	
+}
+div.barragan-projects a:hover{
+   color:yellowgreen;
+}
+.barragan-projects a { 
+	position:relative; 
+}
+
+.barragan-projects a span { 
+	position:absolute; 
+	display:none; 
+	z-index:99; 
+}
+
+.barragan-projects a:hover span { 
+	display:block; 
+	margin-left:500px;
+	margin-top:-400px;
+	
+}
+ /* div.booklet-imgs{
+ } */
+
+ div.booklet-imgs img{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 3em;
+	
+ }
+	#photography-pg{
+	  width:70%;
+	  padding-top:10%;
+	  /* margin-left:1em; */
+  }
+  #food-design-pg{
+	  width:60%;
+	  margin-left: 30%;
+	  padding-top: 5%;
+  }
+
+
+
+
+  #hi{
+	width:30%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 3em;
+	padding-bottom: 1em;	  
+  }
+
+
+
+
+  #green-dinner{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 6em;	  
+  }
+  #burrata-1{
+	width:40%;
+	display:flex;
+	margin-left:4em;
+	margin-top:3em;
+  }
+  #honeydew-1{
+	  width:40%;
+	  display:flex;
+	  margin-left:40%;
+	  margin-top:5em;
+  }
+  #with-shishito-1{
+	  width:30%;
+	  display:flex;
+	  margin-left: 15em;
+	  margin-top: -5em;
+  }
+  #burrata-2{
+	  width:20%;
+	  display:flex;
+	  margin-left:70%;
+  }
+  #sun-green-dinner{
+	  width: 30%;
+	  display:flex;
+	  margin-top: -10%;
+  }
+  #honeydew-grass{
+	  width: 40%;
+	  display:flex;
+	  margin-left:40%;
+	  margin-top: -30%;
+  }
+  #green-olives{
+	  width:50%;
+	  display:flex;
+	  margin-left:10%;
+	  margin-top: 10%;
+  }
+
+
+
+  #editorial-meal{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 6em;	  
+  }
+  #editorial-1{
+	  width:60%;
+	  display:flex;
+	  margin-top: 10%;
+	  margin-left: 6%;
+  }
+  #editorial-2{
+	  width:60%;
+	  display:flex;
+	  margin-left: 30%;
+	  margin-top: 10%;
+  }
+  #editorial-3{
+	  width:60%;
+	  display:flex;
+	  margin-left: 10%;
+	  margin-top: 10%;
+  }
+
+
+
+
+  #cooking{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 6em;	  
+  }
+  div.cooking-video iframe{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5em;
+	margin-bottom:3em;
+}
+
+
+
+#delta-gamma-explain{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 8em;
+	padding-bottom: 8em;	  
+  }
+  #delta-gamma-1{
+	  width:30%;
+	  display:flex;
+	  margin-top: 10%;
+	  margin-left:3%;
+  }
+  #delta-gamma-2{
+	  width:30%;
+	  display:flex;
+	  margin-top:-53.3%;
+	  margin-left: 35%;
+  }
+  #delta-gamma-3{
+	  width:30%;
+	  display:flex;
+	  margin-top: -53.4%;
+	  margin-left: 67%;
+  }
+  #delta-gamma-4{
+	  width: 40%;
+	  display:flex;
+	  margin-top:15%;
+	  margin-left: 40%;
+
+  }
+  #delta-gamma-5{
+	  width: 20%;
+	  display:flex;
+	  margin-top: 10%;
+	  margin-left: 10%;
+  }
+  #delta-gamma-7{
+	  width: 20%;
+	  display: flex;
+	  margin-left: 25%;
+	  margin-top:-5%;
+  }
+  #delta-gamma-6{
+	  width:30%;
+	  display:flex;
+	  margin-top:-60%;
+	  margin-left: 60%;
+  }
+
+
+
+
+
+
+
+#parthean-explain{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 8em;
+	padding-bottom: 8em;	  
+  }
+  #parthean1{
+	  width:60%;
+	  display:flex;
+	  margin-left: 8%;
+  }
+  #parthean-2{
+	  width:60%;
+	  display:flex;
+	  margin-top: 10%;
+	  margin-left:30%;
+  }
+
+
+
+  #motion-explain{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 8em;
+	padding-bottom: 8em;	  
+  }
+  #holy-calamity{
+	  display:flex;
+	  margin-left:10%;
+	  margin-top:10%;
+  }
+  #lucky-charms-vid{
+	  display:flex;
+	  margin-left:3em;
+	  margin-top:15%;
+  }
+  #matcha-vid{
+	  display:flex;
+	  margin-left:40%;
+	  margin-top:13%;
+  }
+  #egg-vid{
+	  display:flex;
+	  margin-left:20%;
+	  margin-top: 15%;
+  }
+
+
+
+
+  #creative-direction-explain{
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 6em;
+	padding-bottom: 6em;	  
+  }
+  #paper-house{
+	display:flex;
+	margin-left: 10%;	 
+	margin-top: 8%; 
+  }
+  #stickers1{
+	display:flex;
+	margin-left:35%;
+	margin-top:-4%;
+  }
+  #oj-spill{
+	  display:flex;
+	  margin-top:6%;
+	  margin-left: 6%;
+  }
+  #blue{
+	  display:flex;
+	  margin-top: -60%;
+	  margin-left: 75%;
+  }
+  #upside-down{
+	  display:flex;
+	  margin-left:55%;
+	  margin-top:-5%;
+  }
+  #games-mirror{
+	  display:flex;
+	  margin-top: 15%;
+	  margin-left:20%;
+  }
+  #gold-water{
+	  display:flex;
+	  margin-left: 10%;
+	  margin-top: -5%;
+  }
+  #bread-top{
+	  display:flex;
+	  margin-left: 40%;
+	  margin-top: -10%;
+  }
+  #kiwi{
+	  display:flex;
+  }
+  #block-sun{
+	  display:flex;
+	  margin-left:70%;
+	  margin-top: -20%;
+  }
+  #drippy{
+	  display:flex;
+	  margin-left:30%;
+	  margin-top:-20%;
+  }
+  #water-pink{
+	  display:flex;
+	  margin-left:50%;
+	  margin-top:-10%;
+  }
+  #yellow-light{
+	  display:flex;
+	  margin-left:10%;
+	  margin-top:-10%;
+  }
+  #tulips{
+	  display:flex;
+	  margin-left:60%;
+  }
+  #mirror{
+	  display:flex;
+	  margin-left:15%;
+	  margin-top:-10%;
+  }
+  #two-of-hearts{
+	  display:flex;
+	  margin-top:-30%;
+	margin-left: 79%;
+  }
+
+
+
+
+
+  #art-explain{
+	width:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 3em;
+	padding-bottom: 4em;	  
+  }
+  #hand-art{
+	  display: flex;
+	  margin-left: 20%;
+	  margin-top:5%;
+  }
+  #basketball{
+	  display: flex;
+	  margin-left: 50%;
+	  margin-top: 10%;
+  }
+  #still-life{
+	  display:flex;
+	  margin-left: 10%;
+	  margin-top: -7%;
+  }
+  #egg-art{
+	  display:flex;
+	  margin-left:50%;
+	  margin-top:-10%;
+  }
+  #nike-art{
+	  display:flex;
+	  margin-top: 10%;
+	  margin-left: 10%;
+  }
+  #pinch{
+	  display:flex;
+	  margin-left: 50%;
+	  margin-top: 10%;
+  }
+  #bondi-beach{
+	  display:flex;
+	  margin-left: 10%;
+	  margin-top: -10%;
+  }
+
+
+
+
+
+
+
+  #photos{
+	  width:70%;
+	  margin-left:-10%;
+  }
+
+  #man-yellow{
+	  width:25%;
+	  padding-left:3em;
+	  padding-top: 30%;
+	  float:left;
+	  position:relative;
+	  
+
+  }
+  #swans{
+	  width:40%;
+	  float:right;
+	  padding-top: 10%;
+	  padding-right:3%;
+	  position:relative;
+  }
+  #kyoto{
+	  width:30%;
+	  padding-left: 10em;
+	  float:left;
+	  margin-left:-17%;
+	  position:relative;
+	  padding-top:50%;
+	  
+  }
+  #toyota-orange{
+	  width:40%;
+	  float:right;
+	  padding-right: 4em;
+	  padding-top: 15em;
+	  position:relative;
+	  z-index:1;
+  }
+  #man{
+	  width:30%;
+	  float:left;
+	  padding-left: 8%;
+	  margin-top: 20%;
+	  position:relative;
+  }
+  #arden{
+	  width:30%;
+	  float:right;
+	  padding-right: 20%;
+	  margin-top: -3%;
+	  position:relative;
+	  z-index: 2;
+  }
+  #cali-surf{
+	  width:25%;
+	  float:left;
+	  padding-left: 20%;
+	  padding-top: 25%;
+
+  }
+  #pink-wall{
+	  width: 30%;
+	  float: right;
+	  padding-top: 20%;
+  }
+  #greek-men{
+	  width: 30%;
+	  float: left;
+	  margin-left: -37%;
+	  padding-top: 38%;	
+	  position: relative;  
+  }
+  #primary-stairs{
+	  width:25%;
+	  float: right; 
+	  padding-top: 40%;
+	  position:relative;
+	  padding-right: 10%;
+  }
+  #melon{
+	  width: 25%;
+	  float: right;
+	  margin-right: -40%;
+	  position: relative;
+
+  }
+  #rocks{
+	  width: 30%;
+	  float:left;
+	  position: relative;
+	  padding-top: 90%;
+	  padding-left: 3em;
+  }
+  #elephant{
+	  width:40%;
+	  float:right;
+	  padding-right: 3em;
+  }
+  #picnic{
+	  width:25%;
+	  float:left;
+	  padding-top: 30%; 
+  }
+  #dog-walk{
+	  width:25%;
+	  float: right;
+	  padding-top: 33%;
+	  margin-right: -20%;
+	}
+	#rail-boys{
+		width:30%;
+		float:left;
+		margin-left: -10%;
+		padding-top: 65%;
+	}
+	#morrocco-men{
+		width:40%;
+		float:right;
+		padding-top: 10%;
+	}
+	#car-back{
+		width:30%;
+		float:left;
+		padding-top: 10%;
+		margin-left: 3em;
+		z-index: 4;
+		position:relative;
+
+	}
+	#arden-lay{
+		width:30%;
+		float:right;
+		padding-top:28%;
+		position:relative;
+		margin-right: -10%;
+	}
+	#lolipop1{
+		width:40%;
+		float:left;
+		padding-left: 3em;
+		margin-top:-10%;
+		z-index: 3;
+		position:relative;
+	}
+	#brekkie{
+		width:30%;
+		float:right;
+		padding-top: 20%;
+		margin-right: 10%;
+		position:relative;
+	}
+	#sunset-hydra{
+		width:20%;
+		float: left;
+		margin-left: 4em;
+		padding-top: 30%;
+	}
+	#hydra{
+		width: 25%;
+		float:right;
+		position:relative;
+		margin-right: -20%;
+		padding-top: 10%;
+	}
+	#bird{
+		width: 25%;
+		float:right;
+		padding-top: 60%;
+		margin-right: -20%;
+	}
+	#lolipop2{
+		width: 30%;
+		float:left;
+		padding-top:30%;
+	}
+	#lolipop3{
+		width:30%;
+		float:right;
+		padding-top:5%;
+	}
+	#cola{
+		width:20%;
+		float:right;
+		padding-top:45%;
+		margin-right:-10%;
+	}
+	#diner{
+		width:30%;
+		float:left;
+		padding-top:80%;
+		margin-left: -20%;
+	}
+	#missouri{
+		width:30%;
+		float:right;
+		padding-top: 90%;
+		margin-right: -20%;
+		z-index:2;
+		position:relative;
+	}
+	
+	#yellow{
+		width:25%;
+		float:left;
+		margin-top:-3%;
+		margin-left: 3em;
+	
+	}
+	#hand{
+		width:50%;
+		float:right;
+		margin-right:-40%;
+		padding-top: 30%;
+		z-index:1;
+		position:relative;
+	}
+	#laguna{
+		width:30%;
+		float:left;
+		margin-left:20%;
+		margin-top:-15%;
+	}
+	#bw{
+		width:30%;
+		float:right;
+		padding-top:30%
+	}
+	#store{
+		width:20%;
+		float:left;
+		padding-top:30%;
+		margin-left: -40%;
+	}
+	#fish{
+		width: 25%;
+		float:right;
+		padding-top: 50%;
+		margin-right:10%;
+	}
+	#tomato{
+		width: 40%;
+		float:left;
+		margin-left:10%;
+		padding-top:10%;
+	}
+	#jump{
+		width: 40%;
+		float:right;
+		padding-top:10%;
+	}
+
+
