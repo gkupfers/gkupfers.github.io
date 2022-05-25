@@ -1105,5 +1105,26 @@ div.barragan-projects a:hover{
 		float:right;
 		padding-top:10%;
 	}
+	.mobile-note{
+		display: none;
+	}
 
 
+
+
+
+
+
+	@media screen and (max-width: 500px){
+		div.mobile-note{
+			display:block !important;
+			background: yellowgreen;
+		}
+		.main{
+			display:none !important;
+		}
+		
+
+
+
+	}
